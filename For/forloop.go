@@ -19,6 +19,16 @@ func main() {
 	// 	}
 	// 	fmt.Println("for range", i)
 	// }
+
+	// forever loop
+	// for {
+	// }
+	var sum int = 999
+	for sum < 1000 {
+		sum += sum
+	}
+
+	fmt.Println(sum)
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("MOJ KRo MITRO")
